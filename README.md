@@ -40,7 +40,7 @@
     
     
 
-#Tech Stack:
+# Tech Stack:
 - Java.
 - OOP.
 - Selenium webdriver.
