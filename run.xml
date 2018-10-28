@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AntiTheft Regression Test" preserve-order="true">
+	<parameter name="browser" value="chrome" />
+	<test name="LoginIntoPortal">
+		<classes>
+			<class name="tests.PortalLogin" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="AddNewAccount">
+		<classes>
+			<class name="tests.PortalAddNewAccountRequest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="CancelRequest">
+		<classes>
+			<class name="tests.CancelRequest" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
